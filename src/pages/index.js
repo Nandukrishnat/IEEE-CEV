@@ -65,25 +65,30 @@ export default function Home({ data }) {
       <div className="container my-5">
         <div className="heading">Our IEEE Family
           <div className="underline"></div></div>
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around align-items-center">
+            <StaticImage  className="society-img img-fluid p-4 col" src="../images/CS_logo.webp" alt=""/>
+            <StaticImage  className="society-img img-fluid p-4 col" src="../images/PES_logo.webp" alt=""/>
+            <StaticImage  className="society-img img-fluid p-4 col" src="../images/WIE_logo.webp" alt=""/>
+          </div>
       </div>
 
       <div className="container my-5">
         <div className="heading">Our Strength
           <div className="underline"></div></div>
-        <div className="d-flex justify-content-around my-4">
-          <div className={`text-center`}>
+        <div className="d-flex bg-dark justify-content-around my-4 rounded-xl">
+          <div className={`text-center text-white p-4`}>
             <div className="fs-2 fw-bold">80+</div>
-            <div className="text-muted fw-bold fs-5">Members</div>
+            <div className="fw-bold fs-5">Members</div>
 
           </div>
-          <div className={`text-center`}>
+          <div className={`text-center text-white p-4`}>
             <div className="fs-2 fw-bold">10</div>
-            <div className="text-muted fw-bold fs-5">Years</div>
+            <div className="fw-bold fs-5">Years</div>
 
           </div>
-          <div className={`text-center`}>
+          <div className={`text-center text-white p-4`}>
             <div className="fs-2 fw-bold">3</div>
-            <div className="text-muted fw-bold fs-5">Chapters</div>
+            <div className="fw-bold fs-5">Chapters</div>
           </div>
         </div>
       </div>
@@ -115,7 +120,7 @@ export default function Home({ data }) {
       </div>
       {/* Upcomming */}
 
-      <div className="container my-5">
+      <div className="container my-5 rounded-xl bg-white p-4 shadow">
 
         <div className="heading">About Us
           <div className="underline"></div>

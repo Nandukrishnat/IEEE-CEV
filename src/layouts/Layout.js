@@ -1,16 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { Seo } from "../components/Seo"
 
 function Layout({ children }) {
   return (
     <>
+    <Seo/>
       {/* Navbar */}
       <header>
         <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow">
           <div className="container-lg">
             <div className="h3 fw-bold" href="#">
-              <StaticImage src="../images/IEEE_logo.png" className="logo" alt="IEEE Logo"/>
+              <StaticImage src="../images/IEEE_logo.webp" className="logo" alt="IEEE Logo"/>
             </div>
             <button
               className="navbar-toggler"
@@ -38,7 +40,7 @@ function Layout({ children }) {
                   <div
                     className="nav-link dropdown-toggle"
                     href="#"
-                    id="navbarDropdown"
+                    id="Communities"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -73,7 +75,7 @@ function Layout({ children }) {
                   <div
                     className="nav-link dropdown-toggle"
                     href="#"
-                    id="navbarDropdown"
+                    id="Execom"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -109,8 +111,8 @@ function Layout({ children }) {
           </div>
         </nav>
       </header>
-      <main style={{marginTop:"5rem"}}>{children}</main>
-      <footer className="bg-primary text-white">
+      <main className="bg-light" style={{marginTop:"5rem"}}>{children}</main>
+      <footer className="bg-primary text-white mt-5 footer">
         <div className="d-flex flex-column flex-md-row container justify-content-around" style={{ overflow: "hidden" }}>
           <div className="d-flex flex-column align-items-center">
             <div className="">Quick Links</div>

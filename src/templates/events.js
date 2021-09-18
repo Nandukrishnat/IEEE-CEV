@@ -7,7 +7,7 @@ export default function EventPost({ data }) {
   const event = data.markdownRemark
   return (
     <Layout>
-      <div className="container my-5 py-5">
+      <div className="container my-5 py-2">
         <div className="my-5 d-flex flex-column align-items-center">
           <h1 className="fw-bold">{event.frontmatter.title}</h1>
         <div className="underline"></div>

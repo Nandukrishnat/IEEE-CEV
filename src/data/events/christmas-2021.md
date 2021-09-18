@@ -3,6 +3,7 @@ title : "Christmas Celebration"
 date : "2021-12-24"
 slug : "christmas-celebration-2021"
 image : "../../images/events/2021/quote_the_picture.jpeg"
+by : "PES"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. Amet volutpat consequat mauris nunc. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Quam viverra orci sagittis eu volutpat odio facilisis. Felis eget nunc lobortis mattis aliquam faucibus purus in massa. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Eget arcu dictum varius duis at. Nibh mauris cursus mattis molestie a iaculis at. Sit amet luctus venenatis lectus magna fringilla urna porttitor. Enim facilisis gravida neque convallis a cras semper. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Cras fermentum odio eu feugiat pretium nibh. Et leo duis ut diam quam nulla porttitor. In iaculis nunc sed augue. Non curabitur gravida arcu ac tortor. Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Etiam sit amet nisl purus in mollis nunc sed. Vitae justo eget magna fermentum iaculis eu. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin.
 
