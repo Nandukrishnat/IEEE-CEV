@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from '../../../layouts/PESLayout'
 
 export default function PES() {
   return (
-    <div>
+    <Layout>
       PES
-    </div>
+    </Layout>
   )
 }

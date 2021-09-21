@@ -1,12 +1,133 @@
 {
-  "execom2021":{
-    "SB Counsellor":{
-      "id":1,
-      "name":"Smitha"
-    },
-    "Chairperson":{
-      "id":2,
-      "name":"Shahla"
-    }
+  "execom2020_21": {
+    "core": [
+      {
+        "id": 1,
+        "name": "Smitha C K",
+        "position": "SB Counsellor"
+      },
+      {
+        "id": 2,
+        "name": "Shahla",
+        "position": "Chairperson"
+      },
+      {
+        "id": 3,
+        "name": "Greeshma T R",
+        "position": "Vice Chairperson"
+      },
+      {
+        "id": 4,
+        "name": "Anupriya C H",
+        "position": "Secretary"
+      },
+      {
+        "id": 5,
+        "name": "Arjun",
+        "position": "Treasurer"
+      },
+      {
+        "id": 6,
+        "name": "Sreeram T K",
+        "position": "Link Representative"
+      },
+      {
+        "id": 7,
+        "name": "Yadunath",
+        "position": "M D Coordinator"
+      },
+      {
+        "id": 8,
+        "name": "Sivaprasad C",
+        "position": "Technical Coordinator"
+      },
+      {
+        "id": 9,
+        "name": "Shebin S",
+        "position": "E C Coordinator"
+      },
+      {
+        "id": 10,
+        "name": "Nandu Krishna",
+        "position": "Webmaster"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "name": "Roshith K",
+        "position": "Chapter Advisor"
+      },
+      {
+        "id": 2,
+        "name": "Kiran K S",
+        "position": "Chairperson"
+      },
+      {
+        "id": 3,
+        "name": "Hafis C P",
+        "position": "Vice Chairperson"
+      },
+      {
+        "id": 4,
+        "name": "Avanthika A",
+        "position": "Secretary"
+      },
+      {
+        "id": 5,
+        "name": "Aleena Reji",
+        "position": "Women in Computing Representative"
+      }
+    ],
+    "pes": [
+      {
+        "id": 1,
+        "name": "Rohikaa Micky",
+        "position": "Chapter Advisor"
+      },
+      {
+        "id": 2,
+        "name": "Prathul M",
+        "position": "Chairperson"
+      },
+      {
+        "id": 3,
+        "name": "Nihad C V",
+        "position": "Vice Chairperson"
+      },
+      {
+        "id": 4,
+        "name": "Dana Abdul Salam",
+        "position": "Secretary"
+      },
+      {
+        "id": 5,
+        "name": "Ashitha N",
+        "position": "Women in Power Representative"
+      }
+    ],
+    "wie": [
+      {
+        "id":1,
+        "name":"Smitha C K",
+        "position":"Chapter Advisor"
+      },{
+        "id":2,
+        "name":"Pravitha P",
+        "position":"Chairperson"
+      },{
+        "id":3,
+        "name":"Gayatri Vishalakshy",
+        "position":"Vice Chairperson"
+      },{
+        "id":4,
+        "name":"Swathy P",
+        "position":"Secretary"
+      }
+    ]
+  },
+  "execom2019_20": {
+    "core": [],
+    "wie": []
   }
 }

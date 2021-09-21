@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../layouts/Layout"
+import React from "react";
+import { graphql, Link } from "gatsby";
+import Layout from "../../layouts/MainLayout"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-export default function EventPost({ data }) {
+export default function EventPost({data}) {
   const event = data.markdownRemark
   return (
     <Layout>
@@ -15,14 +15,15 @@ export default function EventPost({ data }) {
         </div>
         <div className="posterContainer"><GatsbyImage image={getImage(event.frontmatter.image)} className="poster rounded-xl" alt={event.frontmatter.title}/></div>
         <div className="my-5 p-4" dangerouslySetInnerHTML={{ __html: event.html }} />
+        <Link className="btn btn-primary mx-2 fw-bold" to="/activities"><i className="bi bi-arrow-left px-1"></i>Go to Activities</Link>
       </div>
     </Layout>
   )
 }
 
 export const query = graphql`
-query ($slug: String!) {
-  markdownRemark(frontmatter: {slug: {eq: $slug}}) {
+query ($id: String!) {
+  markdownRemark(id: {eq: $id}) {
     frontmatter {
       slug
       title

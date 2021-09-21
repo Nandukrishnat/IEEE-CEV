@@ -1,8 +1,26 @@
+$wie:#5402ed;
+$pes:#467a24;
+$cs:#fca51f;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 $dullGray: rgb(78, 78, 78);
+
+// Font for all Elements
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .society-img{
   max-width: 200px;
+  @media (max-width : 768px) {
+    max-width: 8rem;
+  }
 }
 main{
   min-height: 80vh;
@@ -11,14 +29,14 @@ main{
   font-weight: 600;
   padding: 0.5rem 1rem;
 }
-* {
-  font-family: "Montserrat", sans-serif;
-}
 .rounded-xl {
-  border-radius: 1rem;
-}
-nav {
-  font-weight: 900;
+  border-radius: 0.75rem;
+  &-top{
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+  }
+  &-bottom{
+    border-radius: 0rem 0rem 0.75rem 0.75rem;
+  }
 }
 .underline {
   background: $dullGray;
@@ -31,10 +49,8 @@ nav {
   object-fit: contain;
 }
 .banner {
+  @extend.center;
   min-height: 25vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: rgb(26, 26, 47);
   margin-top: 80px;
   color: white;
@@ -48,13 +64,18 @@ nav {
 }
 .landing {
   height: 60vh;
+  .img {
+    height: 100%;
+  }
 }
-.img {
-  height: 100%;
+.col{
+  padding: 0rem;
 }
 .card {
   width: 18rem;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
+  min-height: 18rem;
+  margin: 1rem;
   &-img {
     border-radius: 1rem 1rem 0rem 0rem;
   }
@@ -62,11 +83,12 @@ nav {
 .cardTitle {
   display: flex;
   justify-content: center;
-  padding: 10px 0px;
+  padding: 1rem 0rem;
   font-size: larger;
   font-weight: 900;
   color: rgb(33, 44, 44);
 }
+
 .heading {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,6 @@
 import { Link, graphql } from "gatsby"
 import React from "react"
-import Layout from "../layouts/Layout"
+import Layout from "../layouts/MainLayout"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 
 export default function Home({ data }) {
@@ -65,7 +65,7 @@ export default function Home({ data }) {
       <div className="container my-5">
         <div className="heading">Our IEEE Family
           <div className="underline"></div></div>
-          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around align-items-center">
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around align-items-center p-4">
             <StaticImage  className="society-img img-fluid p-4 col" src="../images/CS_logo.webp" alt=""/>
             <StaticImage  className="society-img img-fluid p-4 col" src="../images/PES_logo.webp" alt=""/>
             <StaticImage  className="society-img img-fluid p-4 col" src="../images/WIE_logo.webp" alt=""/>
@@ -111,6 +111,7 @@ export default function Home({ data }) {
                   className="card-img"
                 />
               </div>
+              <div className="spacer"></div>
               <div className="card-body">
                 <div className="text-center fw-bold">{el.frontmatter.title}</div>
               </div>
@@ -188,7 +189,6 @@ export const query = graphql`
   query Events {
     allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
-      filter: { frontmatter: { date: {} } }
       limit: 20
     ) {
       nodes {
